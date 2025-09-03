@@ -3,20 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Коммерческая разработка на заказ</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#1e40af',
-                        secondary: '#0f172a',
-                    }
-                }
-            }
-        }
-    </script>
+    <title>MalininDev</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body class="font-sans antialiased">
     <!-- Hero Section -->
@@ -30,6 +18,7 @@
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="hover:text-blue-400 transition-colors">Услуги</a>
                     <a href="#about" class="hover:text-blue-400 transition-colors">О нас</a>
+                    <a href="#clients" class="hover:text-blue-400 transition-colors">Клиенты</a>
                     <a href="#contact" class="hover:text-blue-400 transition-colors">Контакты</a>
                     <a href="#requisites" class="hover:text-blue-400 transition-colors">Реквизиты</a>
                 </div>
@@ -43,8 +32,7 @@
                 </h1>
                 
                 <p class="text-xl md:text-2xl mb-12 text-gray-300 max-w-3xl mx-auto">
-                    Профессиональные IT-решения для вашего бизнеса. 
-                    Интеграции, автоматизация, готовые продукты.
+                    Профессиональные IT-решения для вашего бизнеса
                 </p>
 
                 <div class="flex flex-col md:flex-row gap-6 justify-center mb-16">
@@ -59,7 +47,7 @@
                 <!-- Stats -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
                     <div class="text-center">
-                        <div class="text-3xl font-bold text-blue-400 mb-2">100+</div>
+                        <div class="text-3xl font-bold text-blue-400 mb-2">30+</div>
                         <div class="text-gray-400">Успешных проектов</div>
                     </div>
                     <div class="text-center">
@@ -202,6 +190,68 @@
                             <div class="text-4xl font-bold text-blue-600 mb-2">24/7</div>
                             <div class="text-gray-600">поддержка проектов</div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Наши клиенты</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Нам доверяют крупнейшие российские и международные компании
+                </p>
+            </div>
+
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
+                    <!-- Сбер -->
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center">
+                        <div class="text-2xl font-bold text-green-600 mb-4">СБЕР</div>
+                        <div class="text-gray-600 text-sm">Группа Сбер</div>
+                    </div>
+                    
+                    <!-- Сбербанк-Телеком -->
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center">
+                        <div class="text-lg font-bold text-green-600 mb-4">СберТелеком</div>
+                        <div class="text-gray-600 text-sm">ООО Сбербанк-Телеком</div>
+                    </div>
+                    
+                    <!-- Deutsche Telekom -->
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center">
+                        <div class="text-lg font-bold text-pink-600 mb-4">Deutsche<br>Telekom</div>
+                        <div class="text-gray-600 text-sm">Международный оператор</div>
+                    </div>
+                    
+                    <!-- ВелесСтрой -->
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center">
+                        <div class="text-xl font-bold text-blue-600 mb-4">ВелесСтрой</div>
+                        <div class="text-gray-600 text-sm">Строительная компания</div>
+                    </div>
+                    
+                    <!-- ПИК -->
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center">
+                        <div class="text-2xl font-bold text-orange-600 mb-4">ПИК</div>
+                        <div class="text-gray-600 text-sm">Группа ПИК</div>
+                    </div>
+                </div>
+                
+                <!-- Stats about clients -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">5+</div>
+                        <div class="text-gray-600">Крупных корпоративных клиентов</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">98%</div>
+                        <div class="text-gray-600">Клиентов продлевают сотрудничество</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">24 мес</div>
+                        <div class="text-gray-600">Средняя длительность проектов</div>
                     </div>
                 </div>
             </div>
