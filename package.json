@@ -10,7 +10,10 @@
   "devDependencies": {
     "tailwindcss": "^3.4.0"
   },
-  "keywords": ["tailwindcss", "website"],
+  "keywords": [
+    "tailwindcss",
+    "website"
+  ],
   "author": "Малинин Илья",
   "license": "ISC"
 }
